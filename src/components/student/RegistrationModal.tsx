@@ -30,7 +30,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
     email: '',
     college: 'Amrita Vishwa Vidyapeetham',
     branch: 'Computer Science',
-    passingYear: '2025'
+    passingYear: '2027'
   });
 
   const [registeredStudent, setRegisteredStudent] = useState<RegisteredStudent | null>(null);
@@ -77,7 +77,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
       email: '',
       college: 'Amrita Vishwa Vidyapeetham',
       branch: 'Computer Science',
-      passingYear: '2025'
+      passingYear: '2027'
     });
     setErrors({});
     onClose();
@@ -214,7 +214,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                   Passing Out Year
                 </label>
                 <div className="grid grid-cols-2 gap-2">
-                  {['2025 (Final Year)', '2026 (Pre-Final)'].map(year => (
+                  {['2027 (Final Year)', '2028 (Pre-Final)'].map(year => (
                     <button
                       key={year}
                       type="button"
